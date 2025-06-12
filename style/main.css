@@ -290,3 +290,25 @@ body {
     font-weight: lighter;
   }
 }
+.fake-google-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.fake-search-btn {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  border: 1px solid #f2f2f2;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  cursor: default;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease;
+}
+
+.fake-search-btn:hover {
+  background-color: #f1f3f4;
+}
